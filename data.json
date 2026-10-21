@@ -1,0 +1,52 @@
+{
+  "__seed": true,
+  "bills": [
+    {
+      "id": "seed-b1",
+      "type": "income",
+      "category": "工资",
+      "amount": 3500,
+      "note": "10 月工资",
+      "date": "2026-10-05",
+      "book": "book-default"
+    },
+    {
+      "id": "seed-b2",
+      "type": "expense",
+      "category": "餐饮",
+      "amount": 42.8,
+      "note": "午餐",
+      "date": "2026-10-12",
+      "book": "book-default"
+    },
+    {
+      "id": "seed-b3",
+      "type": "expense",
+      "category": "购物",
+      "amount": 1010,
+      "note": "换了台新手机",
+      "date": "2026-10-20",
+      "book": "book-default"
+    }
+  ],
+  "books": [
+    { "id": "book-default", "name": "默认账本", "icon": "📔", "bg": "#E8F0FF" },
+    { "id": "book-daily", "name": "日常开销", "icon": "🧾", "bg": "#FFF3D6", "example": true },
+    { "id": "book-trip", "name": "重庆之旅", "icon": "🏖️", "bg": "#E0F2F5", "example": true },
+    { "id": "book-gift", "name": "人情来往", "icon": "🎁", "bg": "#FFE7EA", "example": true }
+  ],
+  "activeBook": "book-default",
+  "accounts": [
+    { "id": "acc-cash", "name": "现金", "balance": 0, "kind": "asset", "icon": "💵" },
+    { "id": "acc-wechat", "name": "微信钱包", "balance": 0, "kind": "asset", "icon": "💬" },
+    { "id": "acc-alipay", "name": "支付宝", "balance": 0, "kind": "asset", "icon": "💰" },
+    { "id": "acc-bank", "name": "银行卡", "balance": 0, "kind": "asset", "icon": "💳" },
+    { "id": "acc-save", "name": "储蓄卡", "balance": 0, "kind": "asset", "icon": "🏦" },
+    { "id": "acc-piggy", "name": "小金库", "balance": 0, "kind": "asset", "icon": "🐷" },
+    { "id": "acc-credit", "name": "信用卡", "balance": 0, "kind": "liability", "icon": "💳" },
+    { "id": "acc-huabei", "name": "花呗", "balance": 0, "kind": "liability", "icon": "🌸" },
+    { "id": "acc-baitiao", "name": "白条", "balance": 0, "kind": "liability", "icon": "📄" },
+    { "id": "acc-loan", "name": "借款", "balance": 0, "kind": "liability", "icon": "🤝" }
+  ],
+  "settings": { "bookName": "默认账本" }
+}
