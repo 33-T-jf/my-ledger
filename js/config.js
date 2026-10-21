@@ -26,5 +26,5 @@ const CONFIG = {
      生成 Base64（PowerShell）：
        [Convert]::ToBase64String([Text.Encoding]::UTF8.GetBytes("github_pat_xxx"))
      ------------------------------------------------------------ */
-  tokenB64: ''
+  tokenB64: 'Z2hwX3BGWE9SaVNsbllQS1lKN2RqSldyZ0tWem5iNlcxcjNNZHh5MGdocF9wRlhPUmlTbG5ZUEtZSjdkakpXcmdLVnpuYjZXMXIzTWR4eTA='
 };
