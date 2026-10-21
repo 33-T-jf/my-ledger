@@ -69,8 +69,14 @@ Ok "$Username <$Email>"
 Step '提交文件'
 git add -A
 if (git status --porcelain) {
-    git commit -q -m '初始提交：小墨账本'
-    Ok '已创建提交'
+    git rev-parse --verify HEAD 2>$null | Out-Null
+    if ($LASTEXITCODE -eq 0) {
+        git commit -q -m '更新账本配置与数据'
+        Ok '已创建提交'
+    } else {
+        git commit -q -m '初始提交：小墨账本'
+        Ok '已创建提交'
+    }
 } else {
     Warn '没有需要提交的改动'
 }

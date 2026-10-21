@@ -3,7 +3,7 @@
    ============================================================ */
 const CONFIG = {
   /* GitHub 用户名（区分大小写，看个人主页地址） */
-  owner: 'YOUR_GITHUB_NAME',
+  owner: '33-T-jf',
 
   /* 仓库名 */
   repo: 'my-ledger',
